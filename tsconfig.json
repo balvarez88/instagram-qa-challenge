@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "outDir": "dist",
+      "baseUrl": "."
+    },
+    "include": ["tests/**/*.ts", "pages/**/*.ts", "data/**/*.ts"]
+  }  
